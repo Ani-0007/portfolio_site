@@ -2,10 +2,10 @@ import streamlit as st
 import pandas
 
 st.set_page_config(layout="wide")
-col1, col2 = st.columns([1,2])
+col1,emptycol, col2 = st.columns([0.5,0.1,2])
 
 with col1:
-    st.image("images/AniPhoto_Glasses_Croped.jpg", width=300)
+    st.image("images/AniPhoto_Glasses_Croped.jpg")
 
 with col2:
     st.title("Anirudh Kocherlakota")
